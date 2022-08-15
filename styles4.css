@@ -1,0 +1,35 @@
+.Darshil{
+    margin-left: 25%;
+}
+.darshil_img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 47%;
+}
+.darshil_title{
+    position: absolute;
+    top: 330px;
+    left: 1135px;
+}
+.darshil_description{
+    position: absolute;
+    top: 350px;
+    left:1135px;
+}
+.darshil_overlay{
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+.darshil_overlay > *{
+    transition: tranform 0.25s;
+}
+.darshil_overlay:hover{
+    opacity: 1;
+}
+.darshil_overlay:hover > *{
+    transition: translateY(0);
+}

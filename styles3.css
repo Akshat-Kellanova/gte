@@ -1,0 +1,35 @@
+.Rohit{
+    margin-left: 25%;
+}
+.rohit_img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 27%;
+}
+.rohit_title{
+    position: absolute;
+    top: 330px;
+    left: 835px;
+}
+.rohit_description{
+    
+    position: absolute;
+    top: 350px;
+    left: 835px;
+}
+.rohit_overlay{
+    opacity: 0;
+    transition: opacity .25s;
+}
+.rohit_overlay > *{
+    transition: tranform 0.25s;
+}
+.rohit_overlay:hover{
+    opacity: 1;
+}
+.rohit_overlay:hover > *{
+    transition: translateY(0);
+}

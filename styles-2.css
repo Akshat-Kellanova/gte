@@ -1,0 +1,36 @@
+.Rashi{
+    margin-left: 25%;
+}
+.rashi_img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 7%;
+
+}
+.rashi_title{
+    position: absolute;
+    top: 330px;
+    left: 520px;
+}
+.rashi_description{
+    position: absolute;
+    top: 350px;
+    left: 520px;
+}
+.rashi_overlay{
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+.rashi_overlay > *{
+    transition: tranform 0.25s;
+}
+.rashi_overlay:hover{
+    opacity: 1;
+}
+.rashi_overlay:hover > *{
+    transition: translateY(0);
+}

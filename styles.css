@@ -1,0 +1,108 @@
+.header{
+    position: relative;
+    top: -60px;
+}
+.gtes h1{
+    max-width: 100%;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+.header img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: #d31245;
+}
+
+.header h1 {
+    top: -25px;
+    left: 200px;
+    text-align: right;
+    font-style:inherit;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    background-color: #d31245;
+}
+
+.gtes{
+    display: inline;
+    /* animation: animate 10s linear infinite; */
+}
+.gtes h1{
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+.akash{
+    display: inline;
+    margin: 25px;
+    width: 60px;
+}
+.akash_img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: -25px;
+    transition: .5s ease;
+}
+.akash_overlay{
+    color: white;
+    opacity: 0;
+    transition: opacity .25s;
+}
+.akash_overlay > *{
+    transition: tranform 0.25s;
+}
+.akash_overlay:hover{
+    opacity: 1;
+    background-color: black;
+}
+.akash_overlay:hover > *{
+    transition: translateY(0);
+}
+.title{
+    position: absolute;
+    top: 330px;
+    left: 210px;
+}
+.description{
+    position: absolute;
+    top: 350px;
+    left: 210px;
+}
+.techs{
+    text-align: center;
+    position: relative;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.events{
+    text-align: center;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.holidays{
+    text-align: center;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;    
+}
+.table{
+    position: relative;
+    left: 530px;
+    margin: 25px;
+    text-align: center;
+    color: darkred;
+}
+

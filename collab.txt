@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GTE</title>
+  </head>
+  <body>
+    <div class="cont">
+    <h2>Kellogg's Kampus2Korporate</h2>
+    </div>
+    <div class="container">
+      <h3>Meet the GTE's 2022</h3>
+    </div>
+    <h3>Topics covered till now:</h3>
+    <ul>
+      <li>Mulesoft</li>
+      <li>Power apps</li>
+      <li>SAP modules</li>
+      <li>Python</li>
+      <li>DMIT</li>
+      <li>UNIX</li>
+      <li>GDAG</li>
+      <li>EDI</li>
+    </ul>
+    <div class="container2">
+      <h3>Upcoming events:</h3>
+      <ul></ul>
+    </div>
+    <div class="container3">
+      <h3>Upcoming Holidays '22</h3>
+      <table border="1" cellpadding="5" cellspacing = "2">
+        <tr>
+          <td> Sr: </td>
+          <td> Date </td>
+          <td> Festival/Occassion </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> 15th August </td>
+            <td> Independence day </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> 19th August </td>
+            <td> Janmashtami </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> 8th September </td>
+            <td> Onam day </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> 2nd October </td>
+            <td> Gandhi Jayanti </td>
+        </tr>
+        <tr>
+            <td> 5 </td>
+            <td> 5th October </td>
+            <td> Dussehra </td>
+        </tr>
+        <tr>
+            <td> 6 </td>
+            <td> 24th-26th </td>
+            <td> Diwali </td>
+        </tr>
+        <tr>
+            <td> 7 </td>
+            <td> 8th November </td>
+            <td> Guru Nanak Jayanti </td>
+        </tr>
+        <tr>
+            <td> 8 </td>
+            <td> 24th December </td>
+            <td> Christmas </td>
+        </tr>   
+    </div>
+  </body>
+</html>
+
+
+.cont {
+  color: #d50842;
+  font-style: bold;
+  font-family: "Script MT", cursive;
+}
