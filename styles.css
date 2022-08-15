@@ -40,12 +40,12 @@
         transform: translate(-100%,0);
     }
 }
-.akash{
+.akshat{
     display: inline;
     margin: 25px;
     width: 60px;
 }
-.akash_img{
+.akshat_img{
     height: 175px;
     width: 175px;
     border-radius: 50%;
@@ -53,19 +53,19 @@
     margin-top: -25px;
     transition: .5s ease;
 }
-.akash_overlay{
+.akshat_overlay{
     color: white;
     opacity: 0;
     transition: opacity .25s;
 }
-.akash_overlay > *{
+.akshat_overlay > *{
     transition: tranform 0.25s;
 }
-.akash_overlay:hover{
+.akshat_overlay:hover{
     opacity: 1;
     background-color: black;
 }
-.akash_overlay:hover > *{
+.akshat_overlay:hover > *{
     transition: translateY(0);
 }
 .title{

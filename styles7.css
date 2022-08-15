@@ -1,0 +1,9 @@
+
+.kamat_img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    left: 790px;
+    top: 520px;
+}
